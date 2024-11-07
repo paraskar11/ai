@@ -70,3 +70,5 @@ def play_game(player):
 
 # Start the game
 play_game(current_player)
+# TC:O(b^d)
+# SC:(b)
