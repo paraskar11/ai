@@ -92,3 +92,6 @@ if __name__ == "__main__":
         print("Solution found!")
     else:
         print("Hill Climbing stopped, no better state found (local maxima).")
+
+# TC:O(moves)
+# SC:O(1)
