@@ -89,6 +89,8 @@ if __name__ == "__main__":
     }
 
     # Run the goal stack planner
+    # TC:O(G*A*P)
+    # SC:O(G+A) goal ,action ,precondition per action
     print("Initial State:", block_world.state)
     block_world.goal_stack_planning(goal_state)
     print("Final State:", block_world.state)
