@@ -4,7 +4,8 @@ graph = [[] for i in range(v)]
 
 # Function For Implementing Best First Search
 # Gives output path having lowest cost
-
+# TC: O(vertices+edges)
+# SC:O(vertices)
 
 def best_first_search(actual_Src, target, n):
 	visited = [False] * n
