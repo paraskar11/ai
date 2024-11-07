@@ -35,3 +35,4 @@ for letter, digit in solution.items():
 print(f"\nSEND = {send}")
 print(f"MORE = {more}")
 print(f"MONEY = {money}")
+# TC:O(p(10,8))=O(10!/(10-8)!)
