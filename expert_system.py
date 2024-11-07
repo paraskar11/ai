@@ -40,3 +40,5 @@ def get_diagnosis():
 if __name__ == "__main__":
 
    get_diagnosis()
+
+# TC:O(n+r*m) (TC=SC)
