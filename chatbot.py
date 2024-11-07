@@ -31,3 +31,5 @@ if __name__ == "__main__":
 # pip install nltk 
 # or
 # pip3 install nltk
+# TC:O(n)
+# SC:O(n)
