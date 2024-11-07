@@ -110,4 +110,4 @@ if __name__ == "__main__":
             print_puzzle(step)
     else:
         print("No solution found!")
-# TC:O(branching_factor^depth)
+# TC:O(branching_factor^depth) (TC=SC)
