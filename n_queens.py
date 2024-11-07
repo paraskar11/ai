@@ -49,4 +49,6 @@ def placeNQueens(n):
 # Main function
 if __name__ == "__main__":
     placeNQueens(4)
+# TC:O(n!)
+# SC:O(n)
 
